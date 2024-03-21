@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\bac\\PPE\\WindowsFormsAppGM23\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA269C47-C167-405D-AE8F-5D75AFA8AD55}|WindowsFormsAppGM23\\WindowsFormsAppGM23.csproj|c:\\bac\\ppe\\windowsformsappgm23\\windowsformsappgm23\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA269C47-C167-405D-AE8F-5D75AFA8AD55}|WindowsFormsAppGM23\\WindowsFormsAppGM23.csproj|solutionrelative:windowsformsappgm23\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA269C47-C167-405D-AE8F-5D75AFA8AD55}|WindowsFormsAppGM23\\WindowsFormsAppGM23.csproj|c:\\bac\\ppe\\windowsformsappgm23\\windowsformsappgm23\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA269C47-C167-405D-AE8F-5D75AFA8AD55}|WindowsFormsAppGM23\\WindowsFormsAppGM23.csproj|solutionrelative:windowsformsappgm23\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA269C47-C167-405D-AE8F-5D75AFA8AD55}|WindowsFormsAppGM23\\WindowsFormsAppGM23.csproj|c:\\bac\\ppe\\windowsformsappgm23\\windowsformsappgm23\\formmateriel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA269C47-C167-405D-AE8F-5D75AFA8AD55}|WindowsFormsAppGM23\\WindowsFormsAppGM23.csproj|solutionrelative:windowsformsappgm23\\formmateriel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA269C47-C167-405D-AE8F-5D75AFA8AD55}|WindowsFormsAppGM23\\WindowsFormsAppGM23.csproj|C:\\bac\\PPE\\WindowsFormsAppGM23\\windowsformsappgm23\\formmateriel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA269C47-C167-405D-AE8F-5D75AFA8AD55}|WindowsFormsAppGM23\\WindowsFormsAppGM23.csproj|solutionrelative:windowsformsappgm23\\formmateriel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormClient.cs",
+              "DocumentMoniker": "C:\\bac\\PPE\\WindowsFormsAppGM23\\WindowsFormsAppGM23\\FormClient.cs",
+              "RelativeDocumentMoniker": "WindowsFormsAppGM23\\FormClient.cs",
+              "ToolTip": "C:\\bac\\PPE\\WindowsFormsAppGM23\\WindowsFormsAppGM23\\FormClient.cs",
+              "RelativeToolTip": "WindowsFormsAppGM23\\FormClient.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAADgv4AAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T09:39:15.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormClient.cs [Design]",
+              "DocumentMoniker": "C:\\bac\\PPE\\WindowsFormsAppGM23\\WindowsFormsAppGM23\\FormClient.cs",
+              "RelativeDocumentMoniker": "WindowsFormsAppGM23\\FormClient.cs",
+              "ToolTip": "C:\\bac\\PPE\\WindowsFormsAppGM23\\WindowsFormsAppGM23\\FormClient.cs [Design]",
+              "RelativeToolTip": "WindowsFormsAppGM23\\FormClient.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T09:39:13.95Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormMateriel.cs",
+              "DocumentMoniker": "C:\\bac\\PPE\\WindowsFormsAppGM23\\WindowsFormsAppGM23\\FormMateriel.cs",
+              "RelativeDocumentMoniker": "WindowsFormsAppGM23\\FormMateriel.cs",
+              "ToolTip": "C:\\bac\\PPE\\WindowsFormsAppGM23\\WindowsFormsAppGM23\\FormMateriel.cs",
+              "RelativeToolTip": "WindowsFormsAppGM23\\FormMateriel.cs",
+              "ViewState": "AQIAAAMBAAAAAAAAAAA3wAkBAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T09:14:26.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormMateriel.cs [Design]",
+              "DocumentMoniker": "C:\\bac\\PPE\\WindowsFormsAppGM23\\WindowsFormsAppGM23\\FormMateriel.cs",
+              "RelativeDocumentMoniker": "WindowsFormsAppGM23\\FormMateriel.cs",
+              "ToolTip": "C:\\bac\\PPE\\WindowsFormsAppGM23\\WindowsFormsAppGM23\\FormMateriel.cs [Design]",
+              "RelativeToolTip": "WindowsFormsAppGM23\\FormMateriel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T10:49:55.756Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
