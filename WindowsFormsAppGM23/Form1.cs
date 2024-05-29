@@ -49,7 +49,9 @@ namespace WindowsFormsAppGM23
 
         private void fillMatos()
         {
-            string strcon = "Server=.\\JEFF-PC\\SQLSERVER;Database=GM23;Trusted_Connection=True;";
+
+            string strcon = @"Server=.\SQLSERVER;Database=GM23;Trusted_Connection=True;";
+
             SqlConnection cn = new SqlConnection(strcon);
             cn.Open();
 
@@ -72,7 +74,7 @@ namespace WindowsFormsAppGM23
 
         private int findMatosId(string nommatos)
         {
-            string strcon = "Server=.\\JEFF-PC\\SQLSERVER;Database=GM23;Trusted_Connection=True;";
+            string strcon =  @"Server=.\SQLSERVER;Database=GM23;Trusted_Connection=True;";
             SqlConnection cn = new SqlConnection(strcon);
             cn.Open();
 
@@ -92,7 +94,8 @@ namespace WindowsFormsAppGM23
 
         private int findMaterielId(string nommatos)
         {
-            string strcon = "Server=.\\JEFF-PC\\SQLSERVER;Database=GM23;Trusted_Connection=True;";
+            string strcon = @"Server=.\SQLSERVER;Database=GM23;Trusted_Connection=True;";
+                
             SqlConnection cn = new SqlConnection(strcon);
             cn.Open();
 
@@ -127,7 +130,7 @@ namespace WindowsFormsAppGM23
             string comment = textBoxCommentaire.Text;
             string theid = idmatos.ToString();
 
-            string strcon = "Server=.\\JEFF-PC\\SQLSERVER;Database=GM23;Trusted_Connection=True;";
+            string strcon =  @"Server=.\SQLSERVER;Database=GM23;Trusted_Connection=True;";
             SqlConnection cn = new SqlConnection(strcon);
             cn.Open();
 
@@ -145,7 +148,7 @@ namespace WindowsFormsAppGM23
 
         private void fillMateriel()
         {
-            string strcon = "Server=.\\JEFF-PC\\SQLSERVER;Database=GM23;Trusted_Connection=True;";
+            string strcon =  @"Server=.\SQLSERVER;Database=GM23;Trusted_Connection=True;";
             SqlConnection cn = new SqlConnection(strcon);
             cn.Open();
 
@@ -180,7 +183,7 @@ namespace WindowsFormsAppGM23
             string thedateFin = dateTimePickerFin.Value.Date.ToString();
             string theid = idmatos.ToString();
 
-            string strcon = "Server=.\\JEFF-PC\\SQLSERVER;Database=GM23;Trusted_Connection=True;";
+            string strcon =  @"Server=.\SQLSERVER;Database=GM23;Trusted_Connection=True;";
             SqlConnection cn = new SqlConnection(strcon);
             cn.Open();
 

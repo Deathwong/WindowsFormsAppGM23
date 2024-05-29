@@ -87,8 +87,9 @@ namespace WindowsFormsAppGM23
 
             string strsql = "INSERT INTO Client VALUES('" + nom +
                 "','" + adresse + "','" + mail + "','" + tel + "')";
+            
+            string strcon = @"Server=.\SQLSERVER;Database=GM23;Trusted_Connection=True;";
 
-            string strcon = "Server=.\\SQLEXPRESS;Database=GM23;Trusted_Connection=True;";
             SqlConnection cn = new SqlConnection(strcon);
             cn.Open();
 
