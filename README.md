@@ -10,7 +10,8 @@ Cette solution contient :
 - Windows
 - .NET Framework 4.8
 - IDE recommandé : JetBrains Rider ou Microsoft Visual Studio
-- SQL Server (Express suffit) ou SQL Server Developer
+- SQL Server (Express suffit) ou SQL Server Developer — téléchargement : https://www.microsoft.com/fr-fr/sql-server/sql-server-downloads
+- Outils développeur Visual Studio SDKs : https://dotnet.microsoft.com/en-us/download/visual-studio-sdks
 
 ## Guide unique : démarrage, base de données, compilation et exécution
 1. Cloner le dépôt :
@@ -18,10 +19,14 @@ Cette solution contient :
    - `cd WindowsFormsAppGM23`
 2. Ouvrir la solution dans Rider/Visual Studio (ou poursuivre en terminal).
 3. Préparer la base de données :
-   - Ouvrir SQL Server Management Studio (SSMS) ou un outil équivalent.
-   - Exécuter le script [WindowsFormsAppGM23/database/GM23.sql](WindowsFormsAppGM23/database/GM23.sql).
-   - Le script vérifie l'existence de la base `GM23` et la crée si nécessaire, puis crée les tables et insère des données d’exemple.
-   - Option manuelle : créer d'abord une base appelée `GM23`, puis exécuter le reste du script.
+   - Ouvrir SQL Server Management Studio (SSMS) ou un outil équivalent. Si SQL Server n’est pas encore installé : https://www.microsoft.com/fr-fr/sql-server/sql-server-downloads
+   - Astuce visuelle : ![Bouton Se connecter dans SSMS](image/sqlServerSeConnecter.png)
+   - Dans SSMS, cliquez sur le bouton « Se connecter » pour vous connecter à votre instance SQL Server, puis ouvrez une nouvelle requête (terminal SQL).
+   - Dans ce terminal, vous pouvez créer la base si besoin :
+     - `CREATE DATABASE GM23`
+     - `GO`
+   - Ensuite, exécuter le script [WindowsFormsAppGM23/database/GM23.sql](WindowsFormsAppGM23/database/GM23.sql).
+   - Note : le script vérifie aussi l'existence de la base `GM23` et la crée si nécessaire, puis crée les tables et insère des données d’exemple.
    - Le script crée notamment :
      - `Client(ID_CLIENT, Nom, Adresse, Mail, Tel)`
      - `Connexion(ID_CONNEXION, Login, Password)`
@@ -34,13 +39,8 @@ Cette solution contient :
    - Depuis Rider : bouton Run sur le projet `WindowsFormsAppGM23` (Configuration Debug/Any CPU).
    - Depuis Visual Studio : définir `WindowsFormsAppGM23` comme projet de démarrage puis F5.
    - Depuis le terminal (PowerShell):
-     1. Restaurer/compilier:
-        - `msbuild .\WindowsFormsAppGM23\WindowsFormsAppGM23.csproj /t:Restore,Build /p:Configuration=Debug`
-        - ou avec .NET Framework MSBuild via Developer Command Prompt.
-     2. Lancer l'exécutable:
+     1. Lancer l'exécutable:
         - `Start-Process -FilePath .\WindowsFormsAppGM23\bin\Debug\WindowsFormsAppGM23.exe`
-     3. Option en un seul coup (si déjà compilé):
-        - `& .\WindowsFormsAppGM23\bin\Debug\WindowsFormsAppGM23.exe`
 
 ## Structure du projet
 - `WindowsFormsAppGM23.sln` : Solution
@@ -57,4 +57,7 @@ Cette solution contient :
 - Erreur de connexion SQL : vérifiez l’instance SQL Server, l’authentification (Windows/SQL), et la chaîne de connexion dans `App.config`.
 - Droits d’accès BD : l’utilisateur doit avoir les droits de lecture/écriture sur la base `GM23`.
 - Version .NET : assurez-vous d’avoir le .NET Framework 4.8 installé.
+
+---
+Dernière mise à jour : 2025-08-27 12:04
 
